@@ -5,5 +5,50 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+.row{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer{
+    background-color:#031926;
+    color: #eef0eb;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
 }
