@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbfbff;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-bottom: 20px;
+    li:hover{
+        color: white;
+        background-color: red;
+    }
+}
+
+Main{
+    min-height: 100vh;
+    h1{
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+
+}
+
+.titulop{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:infinite;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+   
+}
+
+h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.row{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nosotros{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 60px;
+    margin: 60px auto;
+    max-width: 1100px;
+}
+
+
+label, input {
+    display: inline-block;
+    }
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    }
+
+form {
+    border: 2px solid #ccc;
+    padding: 20px;
+    min-height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .reset-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+
+
+footer{
+    background-color:#031926;
+    color: #eef0eb;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
