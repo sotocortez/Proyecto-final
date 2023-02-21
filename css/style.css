@@ -9,10 +9,26 @@ body {
   padding: 0; }
 
 header {
-  margin-bottom: 10px; }
-  header li:hover {
-    color: white;
-    background-color: red; }
+    margin-bottom: 10px; 
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+ 
+}
+.nav-item{
+    justify-self: center;
+    margin: 3px;
+    padding: 2px;
+}
+
+
+.nav-item:hover{
+      color: white;
+      background-color: red;
+}
+
 
 
 Main {
