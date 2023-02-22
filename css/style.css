@@ -10,6 +10,7 @@ body {
 
 header {
     margin-bottom: 10px; 
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -34,12 +35,14 @@ header {
 Main {
   min-height: 100vh; }
   Main h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 5px;
     padding: 5px; }
 
 
 h2 {
+  font-family:'Poppins', sans-serif;
   text-align: center;
   margin: 15px;
   padding: 15px; }
