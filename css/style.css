@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #fbfbff;
+  background-color: #f5f5fd;
   margin: 0;
   padding: 0; }
 
@@ -47,11 +47,7 @@ h2 {
   margin: 15px;
   padding: 15px; }
 
-.row {
-  margin: 2rem;
-  display: flex;
-  justify-content: space-around; 
-}
+
 
 
 .nosotros{
@@ -77,7 +73,7 @@ form {
   min-height: 100vh;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #ccc;
-  width: 500px;
+  width: 450px;
   margin: 0 auto; }
 
 label {
