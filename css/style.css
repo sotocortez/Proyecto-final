@@ -9,104 +9,92 @@ body {
   padding: 0; }
 
 header {
-  margin-bottom: 20px; }
-  header li:hover {
-    color: white;
-    background-color: red; }
+  margin-bottom: 20px;
+  font-family: 'Roboto Mono', monospace; }
+  header .navbar-nav {
+    margin-left: auto; }
+    header .navbar-nav .nav-item {
+      justify-self: center;
+      margin: 3px;
+      padding: 2px; }
+      header .navbar-nav .nav-item:hover {
+        color: white;
+        background-color: red; }
 
-Main {
+main {
   min-height: 100vh; }
-  Main h1 {
+  main h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 10px;
     padding: 5px; }
-
-.titulop {
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite; }
-
-@keyframes aparecer {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-h2 {
-  text-align: center;
-  margin: 15px;
-  padding: 15px; }
-
-.row {
-  margin: 2rem;
-  display: flex;
-  justify-content: space-around; }
-
-.nosotros {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  text-align: left;
-  padding: 60px;
-  margin: 60px auto;
-  max-width: 1100px; }
-
-label, input {
-  display: inline-block; }
-
-button[type="submit"] {
-  background-color: #4CAF50; }
-
-form {
-  border: 2px solid #ccc;
-  padding: 20px;
-  min-height: 100vh;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px #ccc;
-  width: 500px;
-  margin: 0 auto; }
-
-label {
-  display: block;
-  margin-bottom: 10px; }
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 1px solid #ccc; }
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px; }
-
-.submit-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-right: 10px;
-  cursor: pointer; }
-
-.reset-button {
-  background-color: #f44336;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer; }
+  main h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 15px; }
+  main .card h5 {
+    font-family: 'Poppins', sans-serif; }
+  main .card p {
+    font-family: 'Roboto', sans-serif; }
+  main .ubicacion h1 {
+    font-family: 'Poppins', sans-serif; }
+  main .ubicacion p {
+    font-family: 'Roboto', sans-serif; }
+  main .ubicacion .telefono h3 {
+    font-family: 'Poppins', sans-serif; }
+  main .nosotros {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px; }
+  main .contacto {
+    display: flex;
+    justify-content: center; }
+    main .contacto form {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px #ccc;
+      padding: 20px;
+      width: 500px; }
+      @media only screen and (max-width: 767px) {
+        main .contacto form {
+          max-width: 100%; } }
+    main .contacto label {
+      display: block;
+      margin-bottom: 10px; }
+    main .contacto input[type="text"],
+    main .contacto input[type="email"],
+    main .contacto input[type="tel"],
+    main .contacto textarea {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 100%; }
+    main .contacto .button-container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px; }
+      main .contacto .button-container .submit-button,
+      main .contacto .button-container .reset-button {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none; }
+      main .contacto .button-container .submit-button {
+        border: none;
+        margin-right: 10px; }
+      main .contacto .button-container .reset-button {
+        background-color: #f44336;
+        border: none; }
 
 footer {
   background-color: #031926;
@@ -117,3 +105,69 @@ footer {
   margin: 0 auto;
   text-align: center;
   margin-top: 20px; }
+  footer .root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .root .horario {
+      text-align: center;
+      flex: 1; }
+      footer .root .horario .boton {
+        background-color: #FF0000;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        opacity: 0.6;
+        transition: all 0.3s ease; }
+        footer .root .horario .boton:hover {
+          opacity: 1;
+          transform: scale(1.2); }
+    footer .root .derechos {
+      text-align: center;
+      flex: 1; }
+    footer .root .redes {
+      text-align: center;
+      flex: 1; }
+      footer .root .redes ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        footer .root .redes ul:hover a {
+          filter: blur(2px); }
+        footer .root .redes ul li {
+          display: inline-block;
+          margin: 0 10px;
+          width: 40px;
+          height: 40px;
+          text-align: center; }
+          footer .root .redes ul li .facebook:hover {
+            background: #3b5999; }
+          footer .root .redes ul li .twitter:hover {
+            background: #55acee; }
+          footer .root .redes ul li .instagram:hover {
+            background: #e4405f; }
+          footer .root .redes ul li a {
+            display: block;
+            padding: 0 10px;
+            background: #FF0000;
+            color: #ffffff;
+            border-radius: 10%;
+            font-size: 20px;
+            box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+            transition: .2s; }
+            footer .root .redes ul li a:hover {
+              transform: translateY(-3px) scale(1.1);
+              box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+              filter: none; }
+  @media only screen and (max-width: 768px) {
+    footer .root {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    footer .horario,
+    footer .derechos,
+    footer .redes {
+      margin: 10px 0;
+      flex: 0 0 auto;
+      text-align: center; } }

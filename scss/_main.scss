@@ -1,0 +1,104 @@
+main{
+    min-height: 100vh;
+    h1{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    h2{
+        font-family:'Poppins', sans-serif;
+         text-align: center;
+         margin: 15px;
+         padding: 15px;
+    }
+    .card{
+      h5{
+        font-family: 'Poppins', sans-serif;
+      }
+      p{
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+    .ubicacion{
+      h1{ 
+        font-family: 'Poppins', sans-serif;
+      }
+      p{
+        font-family: 'Roboto', sans-serif;
+      }
+      .telefono{
+        h3{
+          font-family:'Poppins', sans-serif;
+        }
+      }
+    }
+    .nosotros{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        padding: 20px;
+        margin: auto;
+        max-width: 1200px; 
+    }
+    .contacto{
+      display: flex;
+      justify-content: center;
+      form {
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #ccc;
+        padding: 20px;
+        width: 500px;
+    
+        @media only screen and (max-width: 767px) {
+          max-width: 100%;
+        }
+      }
+    
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 100%;
+      }
+    
+      .button-container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    
+        .submit-button,
+        .reset-button {
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 16px;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+        }
+    
+        .submit-button {
+          border: none;
+          margin-right: 10px;
+        }
+    
+        .reset-button {
+          background-color: #f44336;
+          border: none;
+        }
+      }
+    }
+  }
