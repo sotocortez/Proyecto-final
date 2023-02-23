@@ -1,0 +1,16 @@
+header{
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    .navbar-nav{
+        margin-left: auto;
+        .nav-item{
+            justify-self: center;
+            margin: 3px;
+            padding: 2px;
+            &:hover{
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+}

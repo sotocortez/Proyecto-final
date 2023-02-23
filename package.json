@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sotocortez/subida2#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   }
