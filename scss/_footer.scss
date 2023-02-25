@@ -46,13 +46,13 @@ footer {
                     height: 40px;
                     text-align: center;
                     .facebook:hover{
-                        background: #3b5999;
+                        background: $colorfacebook;
                       }
                     .twitter:hover{
-                        background: #55acee ;
+                        background: $colortwitter;
                       }
                     .instagram:hover{
-                        background: #e4405f ;
+                        background: $colorinstagram;
                       }
                     a {
                         display: block;
