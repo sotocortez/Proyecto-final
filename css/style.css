@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #fbfbff;
+  background-color: #f0f0fc;
   margin: 0;
   padding: 0; }
 
@@ -37,6 +37,17 @@ main {
     font-family: 'Poppins', sans-serif; }
   main .card p {
     font-family: 'Roboto', sans-serif; }
+  main .card .btn-comprar {
+    color: white;
+    background-color: #c8102e;
+    border-color: #c8102e;
+    padding: 6px 12px; }
+    main .card .btn-comprar i {
+      margin-right: 8px; }
+    main .card .btn-comprar:hover {
+      background-color: #e01637;
+      border-color: #e01637;
+      border-width: 1.5px; }
   main .ubicacion h1 {
     font-family: 'Poppins', sans-serif; }
   main .ubicacion p {

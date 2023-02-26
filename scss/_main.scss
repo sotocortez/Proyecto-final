@@ -19,6 +19,19 @@ main{
       p{
         font-family: 'Roboto', sans-serif;
       }
+      .btn-comprar {
+        color: white;
+        background-color: #c8102e;
+        border-color: #c8102e;
+        padding: 6px 12px;
+        i {
+          margin-right: 8px;}
+        &:hover {
+          background-color: #e01637;
+          border-color: #e01637;
+          border-width: 1.5px;
+        }      
+      }
     }
     .ubicacion{
       h1{ 
