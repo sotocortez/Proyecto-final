@@ -37,14 +37,14 @@ main {
     font-family: 'Poppins', sans-serif; }
   main .card p {
     font-family: 'Roboto', sans-serif; }
-  main .card .btn {
+  main .card .btn-comprar {
     color: white;
     background-color: #c8102e;
     border-color: #c8102e;
     padding: 6px 12px; }
-    main .card .btn i {
+    main .card .btn-comprar i {
       margin-right: 8px; }
-    main .card .btn:hover {
+    main .card .btn-comprar:hover {
       background-color: #e01637;
       border-color: #e01637;
       border-width: 1.5px; }
