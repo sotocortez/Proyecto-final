@@ -26,13 +26,13 @@ main {
   main h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin: 5px;
-    padding: 5px; }
+    margin: 30px;
+    padding: 10px; }
   main h2 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin: 15px;
-    padding: 15px; }
+    margin: 30px;
+    padding: 30px; }
   main .card h5 {
     font-family: 'Poppins', sans-serif; }
   main .card p {
@@ -48,19 +48,66 @@ main {
       background-color: #e01637;
       border-color: #e01637;
       border-width: 1.5px; }
+  main .sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main .sobrenosotros .color1 {
+      background-color: #fbfbff;
+      margin-bottom: 0; }
+      main .sobrenosotros .color1 .izquierda {
+        background-color: #fbfbff;
+        max-width: 1400px;
+        margin: auto; }
+        main .sobrenosotros .color1 .izquierda h3 {
+          margin-top: 30px;
+          font-family: 'Poppins', sans-serif;
+          text-align: center; }
+        main .sobrenosotros .color1 .izquierda .texto-izquierda {
+          display: flex;
+          flex-direction: row;
+          margin: 30px 0;
+          border: none;
+          align-items: center; }
+          main .sobrenosotros .color1 .izquierda .texto-izquierda p {
+            text-align: left;
+            font-family: 'Roboto', sans-serif; }
+          main .sobrenosotros .color1 .izquierda .texto-izquierda img {
+            border-radius: 30%;
+            max-width: 350px;
+            max-height: 250px;
+            margin-right: 20px; }
+    main .sobrenosotros .color2 {
+      background-color: #f0f0fc; }
+      main .sobrenosotros .color2 .derecha {
+        background-color: #f0f0fc;
+        max-width: 1400px;
+        margin: auto; }
+        main .sobrenosotros .color2 .derecha h3 {
+          font-family: 'Poppins', sans-serif;
+          text-align: center;
+          margin-top: 30px; }
+        main .sobrenosotros .color2 .derecha .texto-derecha {
+          display: flex;
+          flex-direction: row;
+          margin: 30px 0;
+          border: none;
+          flex-direction: row-reverse;
+          align-items: center; }
+          main .sobrenosotros .color2 .derecha .texto-derecha p {
+            text-align: left;
+            font-family: 'Roboto', sans-serif; }
+          main .sobrenosotros .color2 .derecha .texto-derecha img {
+            border-radius: 30%;
+            max-width: 350px;
+            max-height: 250px;
+            margin-right: 20px; }
   main .ubicacion h1 {
     font-family: 'Poppins', sans-serif; }
   main .ubicacion p {
     font-family: 'Roboto', sans-serif; }
   main .ubicacion .telefono h3 {
     font-family: 'Poppins', sans-serif; }
-  main .nosotros {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: left;
-    padding: 20px;
-    margin: auto;
-    max-width: 1200px; }
   main .contacto {
     display: flex;
     justify-content: center; }

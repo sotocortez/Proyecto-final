@@ -3,14 +3,14 @@ main{
     h1{
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        margin: 5px;
-        padding: 5px;
+        margin: 30px;
+        padding: 10px;
     }
     h2{
         font-family:'Poppins', sans-serif;
          text-align: center;
-         margin: 15px;
-         padding: 15px;
+         margin: 30px;
+         padding: 30px;
     }
     .card{
       h5{
@@ -33,6 +33,81 @@ main{
         }      
       }
     }
+  
+    .sobrenosotros {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .color1{
+        background-color: $colorfondo2;
+        margin-bottom: 0;
+        .izquierda{
+          background-color: $colorfondo2;
+          max-width: 1400px;
+          margin: auto;
+          h3{
+            margin-top: 30px;
+            font-family:'Poppins', sans-serif;
+            text-align: center;
+          } 
+          .texto-izquierda {
+            display: flex;
+            flex-direction: row;
+            margin: 30px 0;
+            border: none;
+            align-items: center;
+            p{
+              text-align: left;
+              font-family: 'Roboto', sans-serif;
+            }
+            img {
+              border-radius: 30%;
+              max-width: 350px;
+              max-height: 250px;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      .color2{
+        background-color: $colorfondo;
+        .derecha{
+          background-color: $colorfondo;
+          max-width: 1400px;
+          margin: auto;
+          h3{
+            font-family:'Poppins', sans-serif;
+            text-align: center;
+            margin-top: 30px;
+          }
+          .texto-derecha {
+            display: flex;
+            flex-direction: row;
+            margin: 30px 0;
+            border: none;
+            flex-direction: row-reverse;
+            align-items: center;
+            p{
+              text-align: left;
+              font-family: 'Roboto', sans-serif;
+            }
+            img {
+              border-radius: 30%;
+              max-width: 350px;
+              max-height: 250px;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      
+    }
+    
+    
+    
+    
+    
+
     .ubicacion{
       h1{ 
         font-family: 'Poppins', sans-serif;
@@ -45,14 +120,6 @@ main{
           font-family:'Poppins', sans-serif;
         }
       }
-    }
-    .nosotros{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        text-align: left;
-        padding: 20px;
-        margin: auto;
-        max-width: 1200px; 
     }
     .contacto{
       display: flex;
